@@ -6,7 +6,7 @@ package ws.web.util;
  * @create: 2020-06-28 15:54
  **/
 public enum CodeEnum {
-    SUCCESS(0, "成功"),
+    SUCCESS(20000, "成功"),
     FAIL(1, "失败"),
     ;
 

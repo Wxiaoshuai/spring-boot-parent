@@ -9,8 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ws.main</groupId>
+    <groupId>ws.main</groupId>
     <artifactId>spring-boot-main</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>ws.common</groupId>
+            <artifactId>spring-boot-common</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 </project>

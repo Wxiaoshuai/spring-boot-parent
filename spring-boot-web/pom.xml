@@ -44,5 +44,10 @@
             <artifactId>spring-boot-common</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>ws.main</groupId>
+            <artifactId>spring-boot-main</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 </project>

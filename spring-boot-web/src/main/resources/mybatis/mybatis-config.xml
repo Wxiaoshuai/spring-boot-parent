@@ -5,5 +5,6 @@
     <!-- 加载所有entity实体类 -->
     <typeAliases>
         <package name="ws.web.user.entity"/>
+        <package name="ws.main.blog.user.entity"/>
     </typeAliases>
 </configuration>

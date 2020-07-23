@@ -4,8 +4,8 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-@MapperScan("ws.web.*.mapper")
+@SpringBootApplication(scanBasePackages = {"ws.web","ws.main"})
+@MapperScan(basePackages = {"ws.web.*.mapper","ws.main.*.*.mapper"})
 public class WebApplication {
 
     public static void main(String[] args) {
